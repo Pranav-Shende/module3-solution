@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+.navbar-default {
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    color:#fff !important;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.navbar-toggle {
+    display: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-toggle .icon-bar {
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+    margin: 5px 0;
+    display: block;
+}
+.hidden {
+    display: none;
+}
+#menu-checkbox:checked ~ .dropdown-menu-xs {
+    display: block;
+}
+
+.dropdown-menu-xs {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4CAF50;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    top: 50px;
+    left: 0;
+}
+
+.dropdown-menu-xs li {
+    border-bottom: 1px solid #45a049;
+}
+
+.dropdown-menu-xs li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu-xs li a {
+    display: block;
+    padding: 10px 20px;
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.dropdown-menu-xs li a:hover {
+    background-color: #45a049;
+}
+
+.title {
+	margin: 30px 0;
+    font-size: 3.5em;
+    color: #5b6576;
+    text-transform: uppercase;
+	text-align: center;
+}
+
+.menu-section {
+    background-color: #e8f5e9;
+    padding: 40px 0;
+}
+
+.menu-box {
+    background-color: #fff;
+    padding: 30px;
+    margin: 15px 1%;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+	width:auto ;
+	height:1000px;
+}
+
+.menu-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu-title {
+    font-size: 2em;
+    color: #226cb5;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.menu-description {
+    font-size: 1.1em;
+    color: #555;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggle {
+        display: block;
+		color: #555;
+    }
+}
+
+
